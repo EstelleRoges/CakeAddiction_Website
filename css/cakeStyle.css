@@ -373,6 +373,10 @@ textarea {
 /* MEDIUM SCREENS / TABLETS */
 
 @media (min-width: 576px) and (max-width: 767px) {
+    #header button {
+        outline: none;
+    }
+
     .welcomeTitle {
         position: absolute;
         bottom: 10px;
@@ -388,6 +392,7 @@ textarea {
         text-align: left;
     }
 
+
     .testimonyText {
         padding-top: 30px;
     }
@@ -396,6 +401,16 @@ textarea {
 /* SMALL SCREENS */
 
 @media (max-width: 575px) {
+    #header .container-fluid {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar-nav {
+        display: flex;
+        align-items: flex-end;
+    }
+
     .headerPic {
         width: 100%;
         border: 15px double rgb(255,255,255,0.4);
@@ -409,6 +424,10 @@ textarea {
         position: absolute;
         bottom: 10px;
         right: 20px;
+    }
+
+    .siteName {
+        display: none;
     }
 
     .mainTitle {

@@ -253,11 +253,11 @@ textarea {
 
 @media (min-width: 1400px) {
     .container {
-        padding: 4%;
+        padding: 5%;
     }
 
     #welcome {
-        padding: 5% 0;
+        padding: 4% 0;
     }
 
     .headerPic {

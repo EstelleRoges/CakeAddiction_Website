@@ -322,7 +322,7 @@ textarea {
     }
 
     .headerPic {
-        width: 90%;
+        width: 80%;
         max-width: 1200px;
         max-height: 785px;
         border: 15px double rgb(255,255,255,0.4);
@@ -446,6 +446,18 @@ textarea {
 /* SMALL SCREENS */
 
 @media (max-width: 575px) {
+    .navPosition {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     #header .container-fluid {
         display: flex;
         justify-content: flex-end;
